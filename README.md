@@ -71,7 +71,7 @@ The analysis is visualized using key charts to highlight the main drivers of chu
 * **Churn Rate by Internet Type** (Bar Chart)
 
 ### **View Dashboard**
-[Telecom Churn Dashboard](https://drive.google.com/file/d/1Njblq_NghFs9eQGr7gXwiJR5_HaHhusz/view?usp=drive_link)
+[Telecom Churn Dashboard](Telecom Dashboard.pdf)
 
 ---
 
