@@ -1,6 +1,11 @@
-This file contains all the documentation for the project: **Problem Scenario, Data Cleaning, Analysis Report, and Recommendations.**
+---
 
-[Problem Scenario](https://drive.google.com/file/d/1vw7RaIngmcrVf5fjjZPIM4eDD5R-0qwX/view?usp=sharing)
-[Data Cleaning](https://drive.google.com/file/d/1NJWJvi-XfkjII5_MEOBumd2iB8_zY3wx/view?usp=sharing)
-[Analysis Report](https://drive.google.com/file/d/1rNl0w7xI_xzD0ksJCN5cYXLs9FGWYNk2/view?usp=sharing)
-[Insights & Recommendations]()
+## **📚 Project Documentation**
+This project was executed across several phases, documented in detail below. This repository contains all the reports, analysis, and final recommendations for the Telecom Customer Churn project.
+
+| Document Title | Content Focus | Link |
+| :--- | :--- | :--- |
+| **Problem Scenario** | Defines the business problem, scope, stakeholders, and project objectives. | [View Document](https://drive.google.com/file/d/1vw7RaIngmcrVf5fjjZPIM4eDD5R-0qwX/view?usp=sharing) |
+| **Data Cleaning** | Details the process of data ingestion, quality checks, transformation (e.g., missing values), and feature engineering using Power Query. | [View Document](https://drive.google.com/file/d/1NJWJvi-XfkjII5_MEOBumd2iB8_zY3wx/view?usp=sharing) |
+| **Analysis Report** | Summarizes the methodology, key performance indicators (KPIs), and initial statistical findings from the core data analysis. | [View Document](https://drive.google.com/file/d/1rNl0w7xI_xzD0ksJCN5cYXLs9FGWYNk2/view?usp=sharing) |
+| **Insights & Recommendations** | The final report synthesizing the dashboard visualizations into actionable business recommendations for retention strategy. | [View Document]() |
