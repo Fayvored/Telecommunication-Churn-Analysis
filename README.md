@@ -1,22 +1,22 @@
-# 📉 Churn Analysis: Data-Driven Retention Strategy for Telecom
+#  Churn Analysis: Data-Driven Retention Strategy for Telecom
 
 ## **Table of Contents**
-* [1. 💡 Project Overview](#1-project-overview)
-* [2. 🎯 Project Aims & Business Questions](#2-project-aims--business-questions)
-* [3. 🧹 Data Preparation & Tools](#3-data-preparation--tools)
-* [4. 📊 Key Performance Indicators (KPIs)](#4-key-performance-indicators-kpis)
-* [5. 🎨 Data Visualization & Dashboard](#5-data-visualization--dashboard)
-* [6. 🔎 Key Insights](#6-key-insights)
-* [7. ✅ Actionable Recommendations](#7-actionable-recommendations)
+* [1.  Project Overview](#1-project-overview)
+* [2.  Project Aims & Business Questions](#2-project-aims--business-questions)
+* [3.  Data Preparation & Tools](#3-data-preparation--tools)
+* [4.  Key Performance Indicators (KPIs)](#4-key-performance-indicators-kpis)
+* [5.  Data Visualization & Dashboard](#5-data-visualization--dashboard)
+* [6.  Key Insights](#6-key-insights)
+* [7.  Actionable Recommendations](#7-actionable-recommendations)
 
 ---
 
-## **1. 💡 Project Overview**
+## **1.  Project Overview**
 
 ### **Introduction**
-The telecommunications company provides phone and internet services to more than **7,000 customers across California**. [cite_start]They are facing a major business challenge: **customer churn**—when customers discontinue services and move to competitors[cite: 109, 110, 111]. [cite_start]This loss negatively impacts revenue, brand image, and overall growth potential[cite: 112].
+The telecommunications company provides phone and internet services to more than **7,000 customers across California**. They are facing a major business challenge: **customer churn**—when customers discontinue services and move to competitors. This loss negatively impacts revenue, brand image, and overall growth potential.
 
-[cite_start]The goal is to understand **why** customers are leaving, **who** they are, and what steps can be taken to retain them, requiring a detailed data-driven investigation of customer behavior[cite: 113, 114].
+The goal is to understand **why** customers are leaving, **who** they are, and what steps can be taken to retain them, requiring a detailed data-driven investigation of customer behavior.
 
 ### **Project Description**
 This project focuses on analyzing [Source Dataset](https://drive.google.com/drive/folders/1LoO11nffFrHjLtpYsNycqTZuE2g6-WQA?usp=drive_link) using **Power BI**. [cite_start]The goal is to identify key patterns (churn rate) in the **Telecommunication Industry** to inform **retention strategies and boost customer satisfaction**[cite: 116].
