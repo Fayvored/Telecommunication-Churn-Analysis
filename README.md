@@ -1,107 +1,63 @@
 ## Churn Analysis 
 **Introduction**
+
 The telecommunications company provides phone and internet services to more than 7,000 customers across California. However, they are facing a major business challenge, customer churn. Customer churn refers to when customers discontinue using the company’s services and move to competitors. This loss of customers negatively affects revenue, brand image, and overall growth potential.
 
 The company wants to understand why customers are leaving, who they are, and what steps can be taken to retain them. This requires a detailed data-driven investigation of customer demographics, service usage, subscription types, contract durations, and payment behaviors.
 
 
-This project focuses on analyzing [Source Dataset] using [Primary Tool Used]. The goal is to identify key trends in [Industry/Domain] to inform [Stakeholder/Decision].
+This project focuses on analyzing [Source Dataset](https://drive.google.com/drive/folders/1LoO11nffFrHjLtpYsNycqTZuE2g6-WQA?usp=drive_link) using [Power BI]. The goal is to identify key patterns (churn rate) in [Telecommunication Industry] to inform [Stakeholder/Decision].
 
-📝 Project Description
-Provide an overview of the project's scope, including the data and the main objectives.
+**Project Description**
 
-Problem Statement: [A single sentence defining the issue, e.g., "The client needed to understand why customer churn rates exceeded 20% in the last quarter."]
+**Problem Statement:** [The client needed to understand churn rates -why and who is leaving and  to help them improve retention and boost satisfaction...]
 
-Dataset Overview: [Source and size, e.g., "Telecom Customer Churn dataset, 7,044 rows, 38 columns."]
+**Dataset Overview:** [ "Telecom Customer Churn dataset, 7,044 rows, 38 columns."] (https://drive.google.com/drive/folders/1LoO11nffFrHjLtpYsNycqTZuE2g6-WQA?usp=drive_link) 
 
-Tool Stack: [List the tools used, e.g., Microsoft Excel (Power Query), Power BI, Python (Pandas).]
+**Tool Stack:** [ Microsoft Excel (Power Query), Power BI]
 
-🎯 Project Aim / Key Business Questions
-List the specific, measurable questions your analysis was designed to answer.
+Project Aim / Key Business Questions
+[Question 1 What is the current churn rate?]
+[Question 2: Which customer demographics are most affected?]
+[Question 3: Which service types or contract models are linked to higher churn? ]
+[Question 4: Do payment methods or billing patterns influence churn?]
+[Question 5: How does customer tenure affect churn probability?]
 
-✅ [Question 1, e.g., Which customer segments show the highest likelihood of churning?]
-
-✅ [Question 2, e.g., What is the average time taken for a startup to achieve unicorn status?]
-
-✅ [Question 3, e.g., Who are the biggest investors funding these startups?]
-
-🧹 Preparation of the Dataset: Cleaning and Transformation
-Describe the crucial steps taken to ensure data quality and readiness. (You can adapt these from your Telecom Report ).
-
-
-
-Missing Value Handling: [Describe approach, e.g., Nulls in usage metrics replaced with 0.]
-
-
+**Preparation of the Dataset: Cleaning and Transformation**
+Missing Value Handling: [ Nulls in usage metrics replaced with 0.]
 Data Type Assignment: [Ensured all columns were set to the correct type (numeric, date, text).]
-
-
 Uniqueness Check: [Confirmed no duplicate records based on the primary identifier (e.g., Customer ID).]
-
-Feature Engineering: [New column added, e.g., 'Years to Unicorn' calculated.]
-
-
 Data Enrichment/Merging: [Dataset merged with [Zipcode Population dataset] using [Zip Code] to add demographic context.]
 
-
-📈 Data Analysis & KPIs
-List the key metrics used to measure performance or guide the analysis.
-
+**Data Visualization & Dashboard Structure**
 Key Performance Indicators (KPIs) Analyzed:
+[KPI 1: Total Customer]
+[KPI 2: Churn Rate]
+[KPI 3: Total Churned Customers]
+[KPI 4: Total Revenue]
+[KPI 5: Revenue Lost to Churn]
 
-[KPI 1, e.g., Average Return on Investment (ROI)]
+[Chart Type]: Churn Rate by Tenure in Months (Line Chart) 
+[Chart Type]: Churn Rate by Contract (Bar Chart) 
+[Chart Type]: Churn Rate by Age Group (Bar Chart) 
+[Chart Type]: Churn Rate by Payment Method (Bar Chart)
+[Chart Type]: Churn Rate by Internet Type (Bar Chart)
 
-[KPI 2, e.g., Churn Rate by Service Type]
+**View Dashboards**
+[Dashboard] (https://drive.google.com/file/d/1Njblq_NghFs9eQGr7gXwiJR5_HaHhusz/view?usp=drive_link)
 
-[KPI 3, e.g., Total Funding by Industry]
+**Insights from the Data Analysis**
+[Insight 1]: [Contract Type is the Biggest Churn Driver: The Month-to-Month contract is extremely unstable, driving a 46% churn rate. This is significantly higher than One-Year (11% churn) and Two-Year (3% churn) contracts. Furthermore, Month-to-Month contracts account for the largest portion of Revenue Lost to Churn ($2.49 Million)]
 
-🎨 Data Visualization & Dashboard Structure
-Overview Dashboard
-Purpose: [General summary/high-level view.]
+[Insight 2]: [New Customers are Highly Vulnerable: The Churn Rate by Tenure in Months line chart shows that churn is highest immediately after joining (around 60% in the first few months) and decreases as customer tenure increases. This points to severe friction or dissatisfaction during the initial onboarding period.]
 
-Key Elements:
+[Insight 3]: [Senior Customers and Specific Services/Payments are High Risk: The Senior age group has the highest churn rate at 31%. Additionally, customers using Mailed Check (37%) and Bank Withdrawal (34%) payment methods show higher churn compared to Credit Card (14%). The Fiber Optic internet type also exhibits a high percentage of churned customers (41%).]
 
-KPI Cards: [e.g., Avg ROI, Total Unicorn Companies.]
+**Recommendations from the Data Analysis**
+[1]: [Incentivize Long-Term Contracts: Immediately create aggressive promotional offers (e.g., significant discounts, free services) for customers to move from Month-to-Month contracts to One- or Two-Year agreements to drastically increase stability and reduce financial loss]
 
-[Chart Type]: [e.g., Map: Countries Producing the Most Unicorns.]
+[2]: [Overhaul the Onboarding Experience: Launch a dedicated 90-Day Onboarding Program focusing intensive retention efforts and high-touch customer support during the first three months of service to address the initial 60% churn peak seen in new customers.]
 
-[Chart Type]: [e.g., Bar Chart: Top 10 Investors.]
+[3]: [Payment: Offer financial incentives (e.g., a small bill credit) to customers using Mailed Check or Bank Withdrawal to switch to automated Credit Card payments, reducing payment friction.
+Service/Demographics: Investigate potential stability/quality issues with the Fiber Optic service and develop specialized, simplified support channels for the Senior age group to improve their experience..]
 
-[Name of Second Dashboard, e.g., Insights Dashboard]
-Purpose: [Deep-dive analysis for specific stakeholders/questions.]
-
-Key Elements:
-
-[Chart Type]: [e.g., Bar Chart: Top Industries by ROI.]
-
-[Chart Type]: [e.g., Average Years to Unicorn by Industry.]
-
-[Slicer/Filter]: [e.g., Continent filter for dynamic analysis.]
-
-🖼️ View Dashboards
-Overview Dashboard Insights Dashboard
-
-🔎 Insights from the Data Analysis
-Summarize the top 3-5 most critical findings derived from the dashboards.
-
-[Insight 1]: [e.g., Industries with the Highest ROI: Fintech, Mobile & Telecommunications, and Hardware.]
-
-[Insight 2]: [e.g., Top Investors: Sequoia Capital China, Accel, and Andreessen Horowitz.]
-
-[Insight 3]: [e.g., Geographical Focus: United States, China, and India produce the most unicorns.]
-
-✅ Recommendations from the Data Analysis
-Provide actionable advice based on your findings, targeting specific audiences.
-
-For [Audience 1, e.g., Investors]: [Recommendation, e.g., Focus on fintech, telecommunications, and AI startups, as they show high ROI potential.]
-
-For [Audience 2, e.g., Policymakers]: [Recommendation, e.g., Supporting startups in the US, China, and India could further boost unicorn formation.]
-
-For [Audience 3, e.g., Startups/Entrepreneurs]: [Recommendation, e.g., Companies should aim for strategic funding rounds, as the average time to unicorn status is 7.5 years.]
-
-⭐ Conclusion
-A brief statement on the project's success and next steps.
-
-This project successfully analyzed [Domain/Topic], highlighting [Key Takeaway]. The insights derived can help stakeholders make informed decisions in [Industry].
-
-You now have a robust, modular template for showcasing any data project on your GitHub profile! Let me know if you'd like to use this structure to draft the content for a specific project.
