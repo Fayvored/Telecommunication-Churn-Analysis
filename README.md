@@ -15,7 +15,7 @@
 ## **1.  Project Overview**
 
 ### **Introduction**
-The telecommunications company provides phone and internet services to more than **7,000 customers across California**. They are facing a major business challenge: **customer churn**—when customers discontinue services and move to competitors. This loss negatively impacts revenue, brand image, and overall growth potential.
+The telecommunications company provides phone and internet services to more than **7,000 customers across California**. They are facing a major business challenge: **customer churn** - when customers discontinue services and move to competitors. This loss negatively impacts revenue, brand image, and overall growth potential.
 
 The goal is to understand **why** customers are leaving, **who** they are, and what steps can be taken to retain them, requiring a detailed data-driven investigation of customer behavior.
 
@@ -23,7 +23,7 @@ The goal is to understand **why** customers are leaving, **who** they are, and w
 This project focuses on analyzing [Source Dataset](https://drive.google.com/drive/folders/1LoO11nffFrHjLtpYsNycqTZuE2g6-WQA?usp=drive_link) using **Power BI**. The goal is to identify key patterns (churn rate) in the **Telecommunication Industry** to inform **retention strategies and boost customer satisfaction**
 .
 
-* **Problem Statement:** The client needed to understand **churn rates—why and who is leaving**—to help them improve retention and boost satisfaction.
+* **Problem Statement:** The client needed to understand **churn rates - why and who is leaving** to help them improve retention and boost satisfaction.
 * **Dataset Overview:** **Telecom Customer Churn dataset, 7,044 rows, 38 columns**.
 * **Tool Stack:** **Microsoft Excel (Power Query), Power BI**.
 
