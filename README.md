@@ -8,7 +8,7 @@
 * [5.  Data Visualization & Dashboard](#5-data-visualization--dashboard)
 * [6.  Key Insights](#6-key-insights)
 * [7.  Actionable Recommendations](#7-actionable-recommendations)
-* [8. Conclusion] (#8-conclusion).
+* [8.  Conclusion](#8-conclusion).
 
 ---
 
@@ -93,8 +93,6 @@ The analysis is visualized using key charts to highlight the main drivers of chu
 
 ---
 ## **8. Conclusion**
-## 🏁 Conclusion: Data-Backed Roadmap for Retention
-
 This project successfully analyzed the **Telecom Customer Churn dataset** to diagnose the root causes of customer attrition and the associated financial loss of **\$3.68 Million**. The analysis provided a clear, evidence-based roadmap for proactive retention.
 
 Churn is driven primarily by **contract inflexibility** (Month-to-Month contracts churn at **46%**) and **initial friction** (churn peaks at **60%** during the first few months of tenure).
